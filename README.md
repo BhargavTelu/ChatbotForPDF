@@ -44,14 +44,21 @@ An AI-powered chatbot that allows users to upload PDF documents and ask question
 
 ## How It Works
 -Upload PDF document
+
 -Text is split into chunks
+
 -Embeddings are created and stored in Pinecone
+
 -Relevant context is retrieved based on query
+
 -OpenAI generates a response using the context
 
 ## Use Cases
 
 - Document analysis
+- 
 - Research assistance
+- 
 - Knowledge base chatbot
+- 
 - Business document querying
