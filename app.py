@@ -36,7 +36,7 @@ if "responses" not in st.session_state:
 if "requests" not in st.session_state:
     st.session_state["requests"] = []   
 
-openai.api_key = "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"
+openai.api_key = ""
 llm = ChatOpenAI(model_name=os.getenv("model_name"), openai_api_key=openai.api_key)     
 
 if "buffer_memory" not in st.session_state:
@@ -78,4 +78,5 @@ def main():
                         message(st.session_state["requests"][i], is_user=True,key=str(i)+ '_user')
         
 if __name__=="__main__":
+
     main()
