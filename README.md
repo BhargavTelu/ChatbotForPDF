@@ -56,9 +56,9 @@ An AI-powered chatbot that allows users to upload PDF documents and ask question
 ## Use Cases
 
 - Document analysis
-- 
+
 - Research assistance
-- 
+
 - Knowledge base chatbot
-- 
+
 - Business document querying
